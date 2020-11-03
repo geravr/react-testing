@@ -12,7 +12,7 @@ Por [@geravr](https://github.com/geravr)
 3. **Realizar pruebas unitarias**
    - *tag:*  `3-unit-testing`
    - *tutorial:*  [wiki-unit-testing](#)
-4. **Crear snapshots**
+4. **Realizar pruebas con snapshots**
    - *tag:*  `4-snapshot-testing`
    - *tutorial:*  [wiki-snapshot-testing](#)
 5. **Realizar pruebas end-to-end con cypress**
