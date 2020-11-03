@@ -8,7 +8,7 @@ Por [@geravr](https://github.com/geravr)
 
 1. **Realizar pruebas de integración**
    - *tag:*  `1-integration-testing`
-   - *tutorial:*  [wiki-integration-testing](/wikis/Pruebas-de-integración)
+   - *tutorial:*  [wiki-integration-testing](../wikis/Pruebas-de-integración)
 2. **Realizar pruebas unitarias**
    - *tag:*  `2-unit-testing`
    - *tutorial:*  [wiki-unit-testing](/wikis/Pruebas-unitarias)
