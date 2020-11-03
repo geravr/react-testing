@@ -1,0 +1,16 @@
+.app {
+  background: #eee;
+  padding: 30px;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.todoList {
+  background: #fff;
+  border-radius: 10px;
+  border: solid 1px #ccc;
+  padding: 20px 30px;
+  width: 400px;
+}
