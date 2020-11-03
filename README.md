@@ -4,20 +4,20 @@ Por [@geravr](https://github.com/geravr)
 
 ### ✅ Objetivos
 
-1. **Creación del proyecto**
+**Creación del proyecto**
 
-3. **Realizar pruebas de integración**
-   - *tag:*  `2-integration-testing`
-   - *tutorial:*  [wiki-integration-testing](#)
-3. **Realizar pruebas unitarias**
-   - *tag:*  `3-unit-testing`
-   - *tutorial:*  [wiki-unit-testing](#)
-4. **Realizar pruebas con snapshots**
-   - *tag:*  `4-snapshot-testing`
-   - *tutorial:*  [wiki-snapshot-testing](#)
-5. **Realizar pruebas end-to-end con cypress**
-   - *tag:*  `5-e2e-testing`
-   - *tutorial:*  [wiki-e2e-testing](#)
+1. **Realizar pruebas de integración**
+   - *tag:*  `1-integration-testing`
+   - *tutorial:*  [wiki-integration-testing](/wikis/Pruebas-de-integración)
+2. **Realizar pruebas unitarias**
+   - *tag:*  `2-unit-testing`
+   - *tutorial:*  [wiki-unit-testing](/wikis/Pruebas-unitarias)
+3. **Realizar pruebas con snapshots**
+   - *tag:*  `3-snapshot-testing`
+   - *tutorial:*  [wiki-snapshot-testing](/wikis/Pruebas-de-snapshots)
+4. **Realizar pruebas end-to-end con cypress**
+   - *tag:*  `4-e2e-testing`
+   - *tutorial:*  [wiki-e2e-testing](/wikis/Pruebas-end-to-end)
     
 
 ### 🤖 Guía Rápida
