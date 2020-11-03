@@ -4,20 +4,33 @@ Por [@geravr](https://github.com/geravr)
 
 ### ✅ Objetivos
 
-1. Creación del proyecto
-2. Realizar pruebas de integración - tag: 2-integration-testing
-3. Realizar pruebas unitarias - tag: 3-unit-testing
-4. Crear snapshots - tag: 4-snapshot-testing
-5. Realizar pruebas end-to-end con cypress - tag: 5-e2e-testing
+ 1. Creación del proyecto
+  
+ 3. Realizar pruebas de integración 
+   *tag:* `2-integration-testing`
+   *tutorial:* [wiki-integration-testing](#)
+  
+ 3. Realizar pruebas unitarias 
+   *tag:* `3-unit-testing`
+   *tutorial:* [wiki-unit-testing](#)
+     
+ 4. Crear snapshots
+   *tag:* `4-snapshot-testing`
+   *tutorial:* [wiki-snapshot-testing](#)
+     
+ 5. Realizar pruebas end-to-end con cypress
+   *tag:* `5-e2e-testing`
+   *tutorial:* [wiki-e2e-testing](#)
+    
 
 ### 🤖 Guía Rápida
 
-1.  **Selecciona el objetivo.**
+1.  **Selecciona el tema.**
 
-    Cada tema tiene su propio tag, dicho tag contiene los archivos necesarios para comenzar a prácticar dicho tema.
+    Cada tema tiene su propio tag, dicho tag contiene los archivos necesarios para comenzar a prácticar.
     Deberás seleccionar el tema con el que deseas prácticar, y clonar el tag en una nueva rama.
 
-    Primero hacemos un fetch para asegurarnos de tener todas las tags:
+    Primero hacemos un fetch para asegurarnos de tener todos los tags:
     ```sh
     git fetch --tags
     ```
