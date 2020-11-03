@@ -1,4 +1,4 @@
-# Proyecto: React Test en app To-Do
+# Proyecto: React Test - app To-Do
 
 Por [@geravr](https://github.com/geravr)
 
@@ -8,16 +8,16 @@ Por [@geravr](https://github.com/geravr)
 
 1. **Realizar pruebas de integración**
    - *tag:*  `1-integration-testing`
-   - *tutorial:*  [wiki-integration-testing](../wikis/Pruebas-de-integración)
+   - *tutorial:*  [wiki-integration-testing](./wiki/integration-testing.md)
 2. **Realizar pruebas unitarias**
    - *tag:*  `2-unit-testing`
-   - *tutorial:*  [wiki-unit-testing](/wikis/Pruebas-unitarias)
+   - *tutorial:*  [wiki-unit-testing](#)
 3. **Realizar pruebas con snapshots**
    - *tag:*  `3-snapshot-testing`
-   - *tutorial:*  [wiki-snapshot-testing](/wikis/Pruebas-de-snapshots)
+   - *tutorial:*  [wiki-snapshot-testing](#)
 4. **Realizar pruebas end-to-end con cypress**
    - *tag:*  `4-e2e-testing`
-   - *tutorial:*  [wiki-e2e-testing](/wikis/Pruebas-end-to-end)
+   - *tutorial:*  [wiki-e2e-testing](#)
     
 
 ### 🤖 Guía Rápida
