@@ -34,7 +34,7 @@ Por [@geravr](https://github.com/geravr)
     Ahora creamos una nueva branch basada en el tag del tema de interés.
     En el siguiente ejemplo crearemos la nueva branch basado en el tag `2-pruebas-de-integracion`:
     ```sh
-    git checkout -b <nombre-de-mi-branch> 2-pruebas-de-integracion
+    git checkout -b nombre-de-mi-branch 2-pruebas-de-integracion
     ```
 
 2.  **Empieza a desarrollar.**
