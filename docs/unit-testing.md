@@ -328,3 +328,77 @@ describe("Todo", () => {
   });
 });
 ```
+
+## :pushpin: Tips adicionales
+
+### Utilizar id's en nuestros elementos html
+Como pudimos observar, para encontrar un elemento de nuestro componente renderizado (en nuestro caso los botones), utilizamos el método `find(element)`, pero al tener más de un elemento igual, tuvimos que especificar el índice del elemento que nos interesaba con el método `at(index)`.
+
+Esto funciona, pero cuando tenemos un componente más grande con múltiples elementos iguales, esto se vuelve cada vez, una tarea más laboriosa.
+
+Para evitar tener que buscar a que índice corresponde nuestro elemento, podemos hacer uso de los `id` en html, para identificar nuestro elemento directamente.
+
+Para esto, necesitamos hacer una pequeña refactorización en nuestro componente `Todo.js`
+
+ - Abrimos el componente en nuestro editor de código, buscamos las etiquetas que pertenecen a nuestros botones
+ - dentro de la etiqueta de cada uno, agregamos un id para identificarlos, en mi caso quedarán de la siguiente manera:
+```html
+<button id="complete-button" className={`${style.btn} ${style.primary}`} onClick={() => completeTodo(index)}>✔ Complete</button>
+<button id="delete-button" className={`${style.btn} ${style.danger}`} onClick={() => removeTodo(index)}>X Delete</button>
+```
+ - Guardamos cambios y abrimos nuevamente nuestro archivo de pruebas
+ - Ahora debemos editar las líneas donde mandamos a buscar nuestros botones, en nuestro caso lo haremos con el botón `complete`, que corresponde a la siguiente línea: `wrapper.find("button").at(0).simulate("click");`
+ - En el método `find()` tenemos que pasarle como argumento en formato string el `id` de nuestro elemento, concatenando al inicio el símbolo '#': `find('#mi-id')`
+ - Una vez aplicado el id, ya no es necesario el método `at(index)`, ya que solo nos retornará un solo elemento
+
+Nuestros test, ahora deberían verse como los siguientes:
+```javascript
+describe("Todo", () => {
+  test("ejecuta completeTodo cuando presiono el botón complete", () => {
+    const todo = {
+      text: "Test todo",
+      isCompleted: true,
+    };
+    const index = 5;
+    const completeTodo = jest.fn();
+    const removeTodo = jest.fn();
+
+    const wrapper = shallow(
+      <Todo
+        todo={todo}
+        index={index}
+        completeTodo={completeTodo}
+        removeTodo={removeTodo}
+      />
+    );
+    wrapper.find("#complete-button").simulate("click");
+
+    expect(completeTodo.mock.calls).toEqual([[5]]);
+    expect(removeTodo.mock.calls).toEqual([]);
+  });
+
+  test("ejecuta removeTodo cuando presiono el botón delete", () => {
+    const todo = {
+      text: "Test todo",
+      isCompleted: true,
+    };
+    const index = 3;
+    const completeTodo = jest.fn();
+    const removeTodo = jest.fn();
+
+    const wrapper = shallow(
+      <Todo
+        todo={todo}
+        index={index}
+        completeTodo={completeTodo}
+        removeTodo={removeTodo}
+      />
+    );
+    wrapper.find("#delete-button").simulate("click");
+
+    expect(removeTodo.mock.calls).toEqual([[3]]);
+    expect(completeTodo.mock.calls).toEqual([]);
+  });
+```
+ - Guardamos y volvemos a correr las pruebas
+ - Si todo está correcto, nuestros test deberían seguir funcionando.
