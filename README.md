@@ -8,16 +8,16 @@ Tutorial desarrollado por [@geravr](https://github.com/geravr)
 
 1. **Realizar pruebas unitarias**
    - *tag:*  `1-unit-testing`
-   - *tutorial:*  [unit-testing](./wiki/unit-testing.md)
+   - *tutorial:*  [unit-testing](./docs/unit-testing.md)
 2. **Realizar pruebas de integración**
    - *tag:*  `2-integration-testing`
-   - *tutorial:*  [integration-testing](./wiki/integration-testing.md)
+   - *tutorial:*  [integration-testing](./docs/integration-testing.md)
 3. **Realizar pruebas con snapshots**
    - *tag:*  `3-snapshot-testing`
-   - *tutorial:*  [snapshot-testing](./wiki/snapshot-testing.md)
+   - *tutorial:*  [snapshot-testing](./docs/snapshot-testing.md)
 4. **Realizar pruebas end-to-end con cypress**
    - *tag:*  `4-e2e-testing`
-   - *tutorial:*  [e2e-testing](./wiki/end-to-end-testing.md)
+   - *tutorial:*  [e2e-testing](./docs/end-to-end-testing.md)
     
 
 ### 🤖 Guía Rápida
