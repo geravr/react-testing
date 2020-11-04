@@ -401,4 +401,4 @@ describe("Todo", () => {
   });
 ```
  - Guardamos y volvemos a correr las pruebas
- - Si todo está correcto, nuestros test deberían seguir funcionando.
+ - Si todo está correcto, nuestros test deberían seguir funcionando
