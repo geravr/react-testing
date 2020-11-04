@@ -1,6 +1,6 @@
 # Proyecto: React Test - app To-Do
 
-Por [@geravr](https://github.com/geravr)
+Tutorial desarrollado por [@geravr](https://github.com/geravr)
 
 ### ✅ Objetivos
 
