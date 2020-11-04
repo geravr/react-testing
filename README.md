@@ -2,6 +2,12 @@
 
 Tutorial desarrollado por [@geravr](https://github.com/geravr)
 
+### 🤖 Antes de comenzar
+ **Global wiki**
+  - Antes de comenzar a escribir código, te recomiendo que vayas a la [global wiki](./docs/global-wiki.md)
+  - En la global wiki, encontrarás conceptos generales, tips, descripciones y ejemplos de uso, de muchos de los métodos que estaremos utilizando a lo largo de los tutoriales.
+  - Cuando no comprendas un método o función, te recomiendo consultarlo nuevamente en la [global wiki](./docs/global-wiki.md)
+
 ### ✅ Objetivos
 
 **Creación del proyecto**
@@ -17,8 +23,7 @@ Tutorial desarrollado por [@geravr](https://github.com/geravr)
    - *tutorial:*  [snapshot-testing](./docs/snapshot-testing.md)
 4. **Realizar pruebas end-to-end con cypress**
    - *tag:*  `4-e2e-testing`
-   - *tutorial:*  [e2e-testing](./docs/end-to-end-testing.md)
-    
+   - *tutorial:*  [e2e-testing](./docs/end-to-end-testing.md)   
 
 ### 🤖 Guía Rápida
 
