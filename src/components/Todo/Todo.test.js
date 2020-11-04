@@ -25,7 +25,7 @@ describe("Todo", () => {
         removeTodo={removeTodo}
       />
     );
-    wrapper.find("button").at(0).simulate("click");
+    wrapper.find("#complete-button").simulate("click");
 
     expect(completeTodo.mock.calls).toEqual([[5]]);
     expect(removeTodo.mock.calls).toEqual([]);
@@ -48,7 +48,7 @@ describe("Todo", () => {
         removeTodo={removeTodo}
       />
     );
-    wrapper.find("button").at(1).simulate("click");
+    wrapper.find("#delete-button").simulate("click");
 
     expect(removeTodo.mock.calls).toEqual([[3]]);
     expect(completeTodo.mock.calls).toEqual([]);

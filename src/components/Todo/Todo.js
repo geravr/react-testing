@@ -10,8 +10,8 @@ const Todo = ({ todo, index, completeTodo, removeTodo }) => {
       {todo.text}
 
       <div className={style.actions}>
-        <button className={`${style.btn} ${style.primary}`} onClick={() => completeTodo(index)}>✔ Complete</button>
-        <button className={`${style.btn} ${style.danger}`} onClick={() => removeTodo(index)}>X Delete</button>
+        <button id="complete-button" className={`${style.btn} ${style.primary}`} onClick={() => completeTodo(index)}>✔ Complete</button>
+        <button id="delete-button" className={`${style.btn} ${style.danger}`} onClick={() => removeTodo(index)}>X Delete</button>
       </div>
     </div>
   );
