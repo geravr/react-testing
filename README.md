@@ -2,10 +2,10 @@
 
 Tutorial desarrollado por [@geravr](https://github.com/geravr)
 
-## Global Wiki:
- [General](./docs/wiki/general.md)
- [Jest](./docs/wiki/jest.md)
- [Enzyme](./docs/wiki/enzyme.md)
+### Global Wiki:
+  - [General](./docs/wiki/general.md)
+  - [Jest](./docs/wiki/jest.md)
+  - [Enzyme](./docs/wiki/enzyme.md)
 
 ## 💡Antes de comenzar
  **Te recomiendo que navegues en la global wiki**
