@@ -9,6 +9,7 @@ Tutorial desarrollado por [@geravr](https://github.com/geravr)
 
 ## 💡Antes de comenzar
  **Te recomiendo que navegues en la global wiki**
+ 
  En la global wiki, encontrarás conceptos generales, tips, descripciones y ejemplos de uso, de muchos de los métodos que estaremos utilizando a lo largo de los tutoriales.
 
 Cuando no comprendas un método o función, te recomiendo consultarlo nuevamente en la global wiki
