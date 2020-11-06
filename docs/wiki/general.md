@@ -2,7 +2,7 @@
 
 Tutorial desarrollado por [@geravr](https://github.com/geravr)
 
-**[Volver al inicio](../..)**
+**[Volver al inicio](/)**
 
 ## Conceptos generales
 
