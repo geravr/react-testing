@@ -4,7 +4,6 @@ Tutorial desarrollado por [@geravr](https://github.com/geravr)
 
 ## Conceptos generales
 
-
 ### Funciones puras
 Son aquellas funciones que siempre nos van a retornar un mismo valor:
 ```javascript
