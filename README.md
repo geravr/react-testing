@@ -4,9 +4,9 @@ Tutorial desarrollado por [@geravr](https://github.com/geravr)
 
 ### 🤖 Antes de comenzar
  **Global wiki**
-  - Antes de comenzar a escribir código, te recomiendo que vayas a la [global wiki](./docs/global-wiki.md)
+  - Antes de comenzar a escribir código, te recomiendo que vayas a la [global wiki](./docs/wiki/global-wiki.md)
   - En la global wiki, encontrarás conceptos generales, tips, descripciones y ejemplos de uso, de muchos de los métodos que estaremos utilizando a lo largo de los tutoriales.
-  - Cuando no comprendas un método o función, te recomiendo consultarlo nuevamente en la [global wiki](./docs/global-wiki.md)
+  - Cuando no comprendas un método o función, te recomiendo consultarlo nuevamente en la [global wiki](./docs/wiki/global-wiki.md)
 
 ### ✅ Objetivos
 
@@ -14,16 +14,16 @@ Tutorial desarrollado por [@geravr](https://github.com/geravr)
 
 1. **Realizar pruebas unitarias**
    - *tag:*  `1-unit-testing`
-   - *tutorial:*  [unit-testing](./docs/unit-testing.md)
+   - *tutorial:*  [unit-testing](./docs/steps/unit-testing.md)
 2. **Realizar pruebas de integración**
    - *tag:*  `2-integration-testing`
-   - *tutorial:*  [integration-testing](./docs/integration-testing.md)
+   - *tutorial:*  [integration-testing](./docs/steps/integration-testing.md)
 3. **Realizar pruebas con snapshots**
    - *tag:*  `3-snapshot-testing`
-   - *tutorial:*  [snapshot-testing](./docs/snapshot-testing.md)
+   - *tutorial:*  [snapshot-testing](./docs/steps/snapshot-testing.md)
 4. **Realizar pruebas end-to-end con cypress**
    - *tag:*  `4-e2e-testing`
-   - *tutorial:*  [e2e-testing](./docs/end-to-end-testing.md)   
+   - *tutorial:*  [e2e-testing](./docs/steps/end-to-end-testing.md)   
 
 ### 🤖 Guía Rápida
 
