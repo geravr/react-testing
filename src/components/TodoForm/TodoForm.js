@@ -1,19 +1,19 @@
 import React, { useState } from "react";
-import style from './todoForm.module.css';
+import style from "./todoForm.module.css";
 
 const TodoForm = ({ addTodo }) => {
   const [value, setValue] = useState("");
 
-  const handleSubmit = e => {
+  const handleSubmit = (e) => {
     e.preventDefault();
     if (!value) return;
     addTodo(value);
     setValue("");
   };
 
-  const handleChange = e => {
-    setValue(e.target.value)
-  }
+  const handleChange = (e) => {
+    setValue(e.target.value);
+  };
 
   return (
     <form className={style.todoForm} onSubmit={handleSubmit}>
