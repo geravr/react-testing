@@ -2,13 +2,18 @@
 
 Tutorial desarrollado por [@geravr](https://github.com/geravr)
 
-### 🤖 Antes de comenzar
- **Global wiki**
-  - Antes de comenzar a escribir código, te recomiendo que vayas a la [global wiki](./docs/wiki/global-wiki.md)
-  - En la global wiki, encontrarás conceptos generales, tips, descripciones y ejemplos de uso, de muchos de los métodos que estaremos utilizando a lo largo de los tutoriales.
-  - Cuando no comprendas un método o función, te recomiendo consultarlo nuevamente en la [global wiki](./docs/wiki/global-wiki.md)
+## Global Wiki:
+ [General](./docs/wiki/general.md)
+ [Jest](./docs/wiki/jest.md)
+ [Enzyme](./docs/wiki/enzyme.md)
 
-### ✅ Objetivos
+## 💡Antes de comenzar
+ **Te recomiendo que navegues en la global wiki**
+ En la global wiki, encontrarás conceptos generales, tips, descripciones y ejemplos de uso, de muchos de los métodos que estaremos utilizando a lo largo de los tutoriales.
+
+Cuando no comprendas un método o función, te recomiendo consultarlo nuevamente en la global wiki
+
+## ✅ Objetivos
 
 **Creación del proyecto**
 
@@ -25,21 +30,21 @@ Tutorial desarrollado por [@geravr](https://github.com/geravr)
    - *tag:*  `4-e2e-testing`
    - *tutorial:*  [e2e-testing](./docs/steps/end-to-end-testing.md)   
 
-### 🤖 Guía Rápida
+## 🤖 Guía Rápida
 
 1.  **Selecciona el tema.**
 
-    Cada tema tiene su propio tag, dicho tag contiene los archivos necesarios para comenzar a prácticar.
-    Deberás seleccionar el tema con el que deseas prácticar, y clonar el tag en una nueva rama.
+    Cada tema tiene su propio tag, dicho tag contiene los archivos necesarios para comenzar a practicar.
+    Deberás seleccionar el tema con el que deseas practicar, y clonar el tag en una nueva rama.
 
     Primero hacemos un fetch para asegurarnos de tener todos los tags:
     ```sh
     git fetch --tags
     ```
     Ahora creamos una nueva branch basada en el tag del tema de interés.
-    En el siguiente ejemplo crearemos la nueva branch basado en el tag `2-pruebas-de-integracion`:
+    En el siguiente ejemplo crearemos la nueva branch basado en el tag `1-unit-testing`:
     ```sh
-    git checkout -b nombre-de-mi-branch 2-pruebas-de-integracion
+    git checkout -b nombre-de-mi-branch 1-unit-testing
     ```
 
 2.  **Empieza a desarrollar.**
