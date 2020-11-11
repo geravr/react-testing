@@ -1,4 +1,4 @@
-# Proyecto: React Test - app To-Do
+# React testing - app To-Do
 Tutorial desarrollado por [@geravr](https://github.com/geravr)
 ## 🧪 Pruebas unitarias - Conceptos
 
@@ -18,7 +18,7 @@ Para realizar nuestro primer test unitario, utilizaremos la API `Shallow Renderi
 ### /Todo.js
 El primer componente que probaremos será el componente `Todo.js` que se encuentra en la ruta `src/components/Todo/`
 
-Este componente es una función al cual se le están inyectando 4 props (todo, index, completeTodo, removeTodo), que posteriormente utiliza dentro del componente.
+Este componente es una función a la cual se le están inyectando 4 props (todo, index, completeTodo, removeTodo), que posteriormente utiliza dentro del componente.
 
 Debemos tener presente que completeTodo y removeTodo son funciones.
 
@@ -81,7 +81,7 @@ import Todo from "./Todo";
 configure({ adapter: new Adapter() });
 ```
 #### Paso 3
- - agregamos el métodos `describe` para indicar que realizaremos el `test` en nuestro componente `Todo`, y el método test para indicar que es lo que vamos a probar
+ - agregamos el método `describe` para indicar que realizaremos el `test` en nuestro componente `Todo`, y el método `test` para indicar que es lo que vamos a probar.
 
 ```javascript
 import React from "react";
@@ -329,7 +329,7 @@ describe("Todo", () => {
 });
 ```
 
-## :pushpin: Tips adicionales
+## 📌 Tips adicionales
 
 ### Utilizar id's en nuestros elementos html
 Como pudimos observar, para encontrar un elemento de nuestro componente renderizado (en nuestro caso los botones), utilizamos el método `find(element)`, pero al tener más de un elemento igual, tuvimos que especificar el índice del elemento que nos interesaba con el método `at(index)`.
@@ -401,4 +401,4 @@ describe("Todo", () => {
   });
 ```
  - Guardamos y volvemos a correr las pruebas
- - Si todo está correcto, nuestros test deberían seguir funcionando
+ - Si todo está correcto, nuestros test deberían seguir funcionando.
